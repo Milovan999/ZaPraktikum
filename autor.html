@@ -1,0 +1,40 @@
+    <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Autor</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="autorBody" onload="kreiranjePrikaz()">
+	<section class="meni">
+		<button><a href="index.html">Početna</a></button>
+		<button><a href="kontakt.html">Kontakt</a></button>
+		<button><a href="autor.html">Autor</a></button>
+		<button onclick="pomeranjeNaDesno();pomeranjeUgao();">Klikni za animaciju</button>
+	</section>
+	<p id="admin"></p>
+	<div id="tekst">
+		<p>Stranica je napravljena tako da možete naručiti svoje BMW vozilo u bilo kom našem salonu,<br>sa bilo kojom vrstom motora,bilo kojom kubikakožom motora i u boji po želji naručioca.Naručivanje vašeg vozila se vrši tako što odete na <span>KONTAKT</span> stranicu upišete vaše podatke i kliknete dugme naruči.<br>Ako i dalje ne znate koji model da naručite onda idite na <span>POČETNA</span> stranicu gde imate kratak opis svakog BMW modela i ako želite čak opširniji opis kliknite dugme <span>PROČITAJ VIŠE<span></p>
+	</div>
+	<div class="insta">
+		<img src="insta.png" id="instaLogo">
+		<p><a href="instagram.com" onmouseover="mOverInsta(this)" onmouseout="mOutInsta(this)">Instagram nalog</a></p>
+	</div>
+	<div id="mail">
+		<img src="mail.png" id="mailLogo" onmouseover="">	
+		<p><a href="mail.com" onmouseover="mOverMail(this)" onmouseout="mOutMail(this)">Mail nalog</a></p>
+	</div>
+	
+	<footer>
+		<p id="footerAutor" onmouseover="changeColorOver(this)" onmouseout="changeColorOut(this)">Stranicu pravio Milovan Grbić student osnovnih strukovnih studija na visokoj tehničkoj školi strukovnih studija u Novom Sadu smer Web dizajn</p>
+		<p></p>
+	<div id="kontejner">
+		<div id="slika"><img src="bmwgiff.gif" id="bmwKaz"></div>
+	</div>
+	<div id="kontejner2">
+		<div id="slika2"><img src="mlogo123.jpg" id="bmwM"></div>
+	</div>
+	</footer>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
