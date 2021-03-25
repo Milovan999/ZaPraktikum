@@ -1,0 +1,187 @@
+#indexBody{
+	background: url('logo1.png');
+	background-image: fixed;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial;
+}
+#kontaktBody{
+	background-image: url('bmw1234.jpg');
+	margin:0px !important;
+}
+#autorBody{
+	background-image: url('bmw123.jpg');
+}
+#porucivanjeVozila{
+	font-size: 20px;
+	width: 550px;
+	height: 480px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.div1{
+	background-image: none;
+}
+input[type=text]{
+	width: 50%;
+	background-image:linear-gradient(green,blue);
+	border-radius: 20px;
+	padding: 10px;
+}
+input[type=email]{
+	width: 50%;
+	background-image: linear-gradient(yellow,red);
+	border-radius: 20px;
+	padding: 15px;
+}
+select{
+	width: 100px;
+	height: 100px;
+	background-image: linear-gradient(blue,purple,white);
+	border-radius: 20px;
+}
+input[type=submit],input[type=reset]{
+	display: inline;
+	margin-bottom: 20px;
+	border: 2px solid blue;
+	padding: 10px 40px;
+	border-radius: 15px;
+	background: yellow;
+}
+input[type=submit]:hover{
+	background: rgba(255,165,0,0.1);
+	transition: 2s;
+}
+input[type=reset]:hover{
+	background: rgba(255,165,0,0.1);
+	transition: 2s;
+}
+h1{
+	text-align: center;
+	color:blue;
+	font-weight: bold;
+	font-size: 50px;
+	position: relative;
+}
+h3{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+}
+footer{
+	color: blue;
+	text-align: center;
+	font-size: 25px;
+}
+p{
+	color:red;
+	border: 1px;
+}
+button{
+	font-size: 20px;
+	padding: 15px;
+	margin-bottom: 5px;
+	background-color: blue;
+	color: white;
+	border: 3px solid red;
+	border-radius: 15px;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+	color:white;
+}
+#logo{
+	width: 300px;
+	height: 300px;
+	position: relative;
+}
+.meni{
+	text-align: center;
+}
+button:hover{
+	font-size: 25px;
+	padding: 15px;
+}
+@keyframes logo{
+	from{left: 0px;}
+	to{left: 615px;}
+}
+fieldset{
+	text-align: center;
+	border: 3px dashed blue;
+	color:red;
+	font-weight: bold;
+}
+div{
+	text-align: center;
+	background-color: 	rgba(0, 255, 255,0.3);
+	border: 2px dashed red;
+	margin: 15px;
+}
+#f30,#g30,#f01,#osmica,#x1,#x2,#x3,#x4,#x5,#x6{
+	width: 700px;
+	height: 300px;
+}
+#f36{
+	width: 700px;
+	height: 350px;
+}
+#footerAutor{
+	font-family: Times New Roman;
+	background-color: blue;
+	font-style: italic;
+	color: green;
+}
+#instaLogo,#mailLogo{
+	width: 100px;
+	height:100px;
+}
+#mail,.insta{
+	background-color: transparent;
+	border: 0px;
+}
+span{
+	color:yellow;
+	background-color: purple;
+	font-size:20px;
+}
+@media screen and (max-width: 768px){
+	#porucivanjeVozila{
+		width: 450px;
+		height: 350px;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 25px;
+	}
+}
+#instaLogo{
+	text-align: left;
+}
+
+#container {
+	border: 0px;
+  position: relative;
+
+}
+#animate {
+	border: 0px;
+  position: absolute;
+}
+#pomerajuciLogo{
+	width: 150px;
+	height: 150px;
+}
+#kontejner,#kontejner1,#kontejner2,#kontejner3 {
+	border: 0px;
+  position: relative;
+
+}
+#slika,#slika1,#slika2,#slika3 {
+	border: 0px;
+  position: absolute;
+}
+#bmwKaz{
+	width: 200px;
+	height: 200px;
+}
